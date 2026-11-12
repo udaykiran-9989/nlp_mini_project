@@ -1,0 +1,9 @@
+# Phase 1 - UI Framework (pending installation)
+streamlit==1.39.0
+
+# Phase 2 - NLP & Deep Learning Dependencies
+# Note: torch==2.2.2+cpu was compiled against NumPy 1.x; numpy<2.0 is required
+# for full PyTorch <-> NumPy interoperability when model inference is enabled.
+torch==2.2.2
+transformers==4.44.2
+numpy>=1.26.0,<2.0
